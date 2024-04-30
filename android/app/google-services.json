@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "297664711333",
+    "firebase_url": "https://notes-a378b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "notes-a378b",
+    "storage_bucket": "notes-a378b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297664711333:android:3c13a538d1237acb431b4c",
+        "android_client_info": {
+          "package_name": "com.example.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9nvtlOmAgfjHgK-Mkq28OwmcZ4UGnDg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
