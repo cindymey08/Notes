@@ -1,5 +1,3 @@
-import 'dart:js_interop';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class NoteSrevice {
@@ -8,6 +6,7 @@ class NoteSrevice {
       _database.collection('notes');
 
   static Future<void> addNotes(String title, String description) async {
+    
     Map<String, dynamic> newNote = {
       'title': title,
       'descpription': description,
