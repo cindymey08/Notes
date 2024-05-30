@@ -154,7 +154,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
                     onPressed: () async {
                       String? imageUrl;
                       if (_imageFile != null) {
-                        imageUrl = await NoteService.uploadImage(_imageFile!);
+                        imageUrl = await NoteService.uploadImage(_imageFile! as File);
                       } else {
                         imageUrl = widget.note?.imageUrl;
                       }
